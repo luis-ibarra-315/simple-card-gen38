@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: black;
+  color: rgb(39, 20, 20);
+}
+.app{
+  min-height: 100vh;
+  background-image: url('../assets/cambio.jpg');
+  background-position: center;
+}
+.app_title{
+  padding: 20px;
+  text-align: center;
+}
+.app_container{
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}

@@ -1,0 +1,18 @@
+.card {
+    width: 280px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.card_header{
+    background-color: gray;
+    padding: 15px;
+    border-bottom: 2px solid orange;
+    overflow: hidden;
+    border-radius: 9px 9px 0 0;
+}
+.card_title{
+    padding: 15px;
+}
+.card_text{
+    padding: 0 15px 25px;
+}
